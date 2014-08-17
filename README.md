@@ -1,7 +1,7 @@
 primes
 ======
 
-Output first 100 prime numbers as strings, i.e 101 -> "one hundred and one".
+Output first 100 prime numbers as strings, i.e 101 will output "one hundred and one".
 
 JavaScript
 ----------
