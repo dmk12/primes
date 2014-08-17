@@ -9,9 +9,9 @@ JavaScript
 
 CoffeeScript
 ------------
-`coffee` folder 
-  `prime.coffee` - contains the CoffeeScript version of the code.
-  `prime.js` - JavaScript file compiled from `prime.coffee`. 
-`prime-coffee.html` - contains a peference to `prime.js`, which is the file compiled from CoffeeScript.
+- `coffee` folder 
+  - `prime.coffee` - contains the CoffeeScript version of the code.
+  - `prime.js` - JavaScript file compiled from `prime.coffee`. 
+- `prime-coffee.html` - contains a peference to `prime.js`, which is the file compiled from CoffeeScript.
 
 *This is my first attempt at CoffeeScript, I have no previous experience with it.*
