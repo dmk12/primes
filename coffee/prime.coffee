@@ -41,7 +41,8 @@ convToStr = (number) ->
             if multiples[i] != undefined
                 result.unshift multiples[i]
             else
-                return 'number longer than 4 digits'
+                console.log('number longer than 4 digits')
+                return
             result.unshift underTwenty[lastOne - 1]
         divider *= 10
         i++
@@ -54,8 +55,8 @@ convToStr = (number) ->
 numbers = getPrimes(1000)
 strings = []
 i = 0
-while i<numbers.length 
+while i<numbers.length  && convToStr numbers[i]
     strings.push convToStr(numbers[i])
     i++
 
-console.log(strings)
+console.dir(strings)

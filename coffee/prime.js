@@ -55,7 +55,8 @@
         if (multiples[i] !== void 0) {
           result.unshift(multiples[i]);
         } else {
-          return 'number longer than 4 digits';
+          console.log('number longer than 4 digits');
+          return;
         }
         result.unshift(underTwenty[lastOne - 1]);
       }
@@ -76,11 +77,11 @@
 
   i = 0;
 
-  while (i < numbers.length) {
+  while (i < numbers.length && convToStr(numbers[i])) {
     strings.push(convToStr(numbers[i]));
     i++;
   }
 
-  console.log(strings);
+  console.dir(strings);
 
 }).call(this);

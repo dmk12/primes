@@ -2,7 +2,7 @@
     <head></head>
     <body>
         <script>
-            console.log((function() {
+            console.dir((function() {
                 /**
                  * Returns prime numbers
                  * @param {int} max The maximum amount of prime numbers to return
@@ -73,7 +73,9 @@
                             if (multiples[i] !== undefined) {
                                 result.unshift(multiples[i]);
                             } else {
-                                return 'number longer than 4 digits';
+                                //limit output to 4 digit number for the moment as more is not needed for the first 1000 primes
+                                console.log('number longer than 4 digits');
+                                return;
                             }
                             result.unshift(underTwenty[lastOne - 1]);
 
@@ -83,7 +85,7 @@
                         calc = Math.floor(number / divider);
                     }
                     //remove 'and' from beginning of array when number is 1 or 2 digits long
-                    if(result[0]==='and'){
+                    if (result[0] === 'and') {
                         result.shift();
                     }
                     string = result.join(' ');
@@ -92,11 +94,11 @@
                 var numbers = getPrimes(1000);
                 var strings = [];
                 var i = 0;
-                while(i<numbers.length){
+                while (i < numbers.length && convToStr(numbers[i])) {
                     strings.push(convToStr(numbers[i]));
                     i++;
                 }
-                
+
                 return strings;
             })());
         </script>
