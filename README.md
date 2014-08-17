@@ -15,4 +15,8 @@ JavaScript
 ----------
 `prime.html` - contains the JavaScript version of the code inside a `<script>` tag.
 
+**Notes:**
+
 *This is my first attempt at CoffeeScript, I have no previous experience with it.*
+
+*This code only outputs prime numbers up to 4 digits long (the first 1229 prime numbers), as this is what was required in the current brief. Modifications will be needed to output a wider range on numbers.*
