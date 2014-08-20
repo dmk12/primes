@@ -6,7 +6,7 @@ Also contains a JavaScript version of the code.
 
 CoffeeScript
 ------------
-- `prime-coffee.html` - contains a peference to `coffee/prime.js`, which is the file compiled from CoffeeScript.
+- `prime-coffee.html` - contains a reference to `coffee/prime.js`, which is the file compiled from CoffeeScript.
 - `coffee` folder 
   - `prime.coffee` - contains the CoffeeScript version of the code.
   - `prime.js` - JavaScript file compiled from `prime.coffee`. 
