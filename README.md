@@ -6,14 +6,21 @@ Also contains a JavaScript version of the code.
 
 CoffeeScript
 ------------
+- `prime-coffee.html` - contains a peference to `prime.js`, which is the file compiled from CoffeeScript.
 - `coffee` folder 
   - `prime.coffee` - contains the CoffeeScript version of the code.
   - `prime.js` - JavaScript file compiled from `prime.coffee`. 
-- `prime-coffee.html` - contains a peference to `prime.js`, which is the file compiled from CoffeeScript.
 
 JavaScript
 ----------
-`prime.html` - contains the JavaScript version of the code inside a `<script>` tag.
+- `prime.html` - contains a reference to `prime.js`, which is the JavaScript version of the code.
+- `js` folder
+	- `prime.js` - contains the JavaScript version of the code.
+
+Tests
+----------
+- tests folder
+	- jasmine tests for `js/prime.js`.
 
 **Notes:**
 
