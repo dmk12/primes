@@ -1,7 +1,7 @@
 primes
 ======
 
-Using CoffeeScript output first 100 prime numbers as strings, i.e 101 will output "one hundred and one".
+Using CoffeeScript output first 1000 prime numbers as strings, i.e 101 will output "one hundred and one".
 Also contains a JavaScript version of the code.
 
 CoffeeScript
