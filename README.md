@@ -19,7 +19,7 @@ JavaScript
 
 Tests
 ----------
-- tests folder
+- `test` folder
 	- jasmine tests for `js/prime.js`.
 
 **Notes:**
